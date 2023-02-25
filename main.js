@@ -1,4 +1,3 @@
-/* nav_progressbar, side_nav */
 window.onscroll = function() {
   myFunction()
 }
@@ -90,4 +89,3 @@ function isElementInViewport(el) {
     (rect.top >= 0 &&
       rect.bottom <= (window.innerHeight || document.documentElement.clientHeight))
   );
-}
